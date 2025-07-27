@@ -165,7 +165,8 @@ body{
 }
 /* burger */
 .main {
-   background: url(img/main.jpg) no-repeat center center fixed;
+   background: url(img/main.jpg) no-repeat center center;
+   background-attachment: fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -896,7 +897,8 @@ transition: all 500ms ease;
    }
    .main {
       padding: 230px 0px 266px;
-  }
+      background-attachment: scroll;
+   }
   .inf {
    padding: 111px 0px 120px;
    }
